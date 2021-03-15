@@ -1,0 +1,29 @@
+
+  .calculatormain {
+    display: grid;
+    justify-content: center;
+    align-content: center;
+    min-height: 100vh;
+    grid-template-columns: repeat(4, 120px);
+   grid-template-rows: minmax(72px, auto) repeat(5, 72px);
+  }
+  button {
+    font-size: 1.2rem;
+    border:solid white;
+    background-color: rgb(217, 200, 241);
+  }
+  .col2 {
+    grid-column: span 2;
+  }
+  .display {
+    grid-column: 1 / -1;
+    background-color:rgba(139, 107, 107, 0.377);
+    display: flex;
+    color:black;
+    align-items: flex-end;
+    justify-content: space-around;
+    flex-direction: column;
+    font-size: 2.0rem;
+    word-break: break-all;
+  }
+ 
